@@ -4,10 +4,11 @@ export default function Hero() {
   return (
     <section className="flex flex-col-reverse md:flex-row items-center p-10">
       <div className="flex-1">
-        <h1 className="text-4xl md:text-6xl font-bold">Hi, I'm Kolawole Oladejo</h1>
+        <h1 className="text-4xl md:text-6xl font-bold">Hi, I'm Kolawole Oladejo<span className="font-bold text-xl text-blue-900">+23408065425390</span></h1>
 
         <p className="mt-4 text-gray-600 text-lg">
-          A passionate frontend developer skilled in React, Tailwind, and modern web technologies.
+          A passionate frontend developer skilled in React, Tailwind, Javascript,Python,
+          Custom CSS and modern web technologies.
         </p>
 
         <a
