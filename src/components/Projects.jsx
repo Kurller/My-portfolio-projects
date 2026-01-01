@@ -6,15 +6,20 @@ export default function Projects() {
       link:"https://registration-form-one-mu.vercel.app/",
     },
     {
-      title: "FruitSearch App",
-      desc: "React + Html + css",
-      link:"https://fruit-search-beige.vercel.app/",
+      title: "Landing Page",
+      desc: "React + TailwindCss",
+      link:"https://landing-page-blue-ten-52.vercel.app/",
     },
     {
       title: "OTP Generator App",
       desc: "Uses React + Html",
       link:"https://otp-generator-green.vercel.app/",
     },
+    {
+      title:"Login Form App",
+      desc:"React + Tailwindcss",
+      link:"https://login-form-sepia-psi.vercel.app/"
+    }
   ];
 
   return (
