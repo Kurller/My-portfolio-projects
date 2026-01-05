@@ -7,9 +7,10 @@ export default function Hero() {
         <h1 className="text-4xl md:text-6xl font-bold">Hi, I'm Kolawole Oladejo<span className="font-bold text-xl text-blue-900">+23408065425390</span></h1>
 
         <p className="mt-4 text-gray-600 text-lg">
-          A passionate frontend developer skilled in React, Tailwind, Javascript,Python,
-          Custom CSS and modern web technologies.
+          Junior Frontend Developer
+I build responsive, user-friendly web applications using React and Tailwind CSS.
         </p>
+        <span>Passionate about clean UI, component-based architecture, and modern frontend development.</span>
 
         <a
           href="/OLADEJO-KOLAWOLE.pdf.pdf"

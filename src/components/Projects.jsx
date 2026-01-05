@@ -4,21 +4,29 @@ export default function Projects() {
       title: "Registration Form",
       desc: "React + Html + css",
       link:"https://registration-form-one-mu.vercel.app/",
+      Tech_used:"React, Tailwind, Hooks",
+      Skills_shown: "State management, side effects, UI logic"
     },
     {
       title: "Landing Page",
       desc: "React + TailwindCss",
       link:"https://landing-page-blue-ten-52.vercel.app/",
+      Tech_used:"React, Tailwind, Hooks",
+      Skills_shown:"State management, side effects, UI logic"
     },
     {
       title: "OTP Generator App",
-      desc: "Uses React + Html",
+      desc: "A React-based OTP generator with countdown timer and automatic expiration using hooks.",
       link:"https://otp-generator-green.vercel.app/",
+      Tech_used: "React, Tailwind, Hooks",
+      Skills_shown: "State management, side effects, UI logic"
     },
     {
       title:"Login Form App",
-      desc:"React + Tailwindcss",
-      link:"https://login-form-sepia-psi.vercel.app/"
+      desc:"Modern authentication UI with toggle mode and smooth transitions",
+      link:"https://login-form-sepia-psi.vercel.app/",
+      Tech_used: "React, Tailwind, Hooks",
+      Skills_shown: "State management, side effects, UI logic"
     }
   ];
 
@@ -31,6 +39,8 @@ export default function Projects() {
           <div key={i} className="p-5 bg-white rounded-lg shadow">
             <h3 className="font-bold text-xl">{p.title}</h3>
             <p className="text-gray-600 mt-2">{p.desc}</p>
+            <p className="text-gray-600 mt-2">{p.Tech_used}</p>
+            <p className="text-gray-600 mt-2">{p.Skills_shown}</p>
             <a
               href={p.link}
               target="_blank"
