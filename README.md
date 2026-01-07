@@ -1,16 +1,36 @@
-# React + Vite
+Contact Section Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A reusable React contact section built with Tailwind CSS, featuring a contact form and clear call-to-action links for easy communication.
 
-Currently, two official plugins are available:
+✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Clean and responsive layout
 
-## React Compiler
+Contact form with name, email, and message fields
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Call-to-action section with direct email link
 
-## Expanding the ESLint configuration
+GitHub and LinkedIn profile links
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Tailwind CSS styling with hover effects
+
+🛠 Tech Stack
+
+React
+
+Tailwind CSS
+
+📦 Usage
+
+Import and use the component in any React page:
+
+import Contact from "./Contact";
+
+<Contact />
+
+📌 Author
+
+Oladejo Kolawole
+GitHub: https://github.com/Kurller
+
+LinkedIn: https://linkedin.com/in/kolaquadry
